@@ -8,4 +8,3 @@ updates:
       timezone: 'Asia/Tokyo'
     ignore:
       - dependency-name: '@types/react'
-    open-pull-requests-limit: 3

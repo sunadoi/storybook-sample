@@ -4,7 +4,7 @@ updates:
     directory: '/'
     schedule:
       interval: 'daily' # 動作確認したらmonthlyに変える
-      time: '22:00'
+      time: '22:20'
       timezone: 'Asia/Tokyo'
     ignore:
-      - dependency-name: '@types/react'
+      - dependency-name: '@types/node'

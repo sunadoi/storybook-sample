@@ -1,6 +1,7 @@
 {
   "schedule": "before 1pm",
   "timezone": "Asia/Tokyo",
+  "prHourlyLimit": 0,
   "minor": {
     "groupName": "all minor dependencies"
   },

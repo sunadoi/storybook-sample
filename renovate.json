@@ -1,5 +1,5 @@
 {
-  "schedule": "before 12pm",
+  "schedule": "before 1pm",
   "timezone": "Asia/Tokyo",
   "minor": {
     "groupName": "all minor dependencies"

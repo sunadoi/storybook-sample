@@ -1,0 +1,8 @@
+{
+  "schedule": "before 12pm",
+  "timezone": "Asia/Tokyo",
+  "minor": {
+    "groupName": "all minor dependencies"
+  },
+  "extends": ["config:base"]
+}

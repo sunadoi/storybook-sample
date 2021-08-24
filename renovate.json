@@ -2,8 +2,11 @@
   "extends": ["config:base"],
   "schedule": "before 1pm",
   "timezone": "Asia/Tokyo",
-  "prHourlyLimit": 0,
-  "minor": {
-    "groupName": "all dependencies"
-  }
+  "prHourlyLimit": 4,
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin"],
+      "groupName": "all minor and patch updates"
+    }
+  ]
 }
